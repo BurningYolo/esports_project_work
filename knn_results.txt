@@ -1,0 +1,88 @@
+Feature Addition Results
+=========================
+
+Features used in iteration 1: match duration , player kills deaths and assists 
+Accuracy: 0.9520
+AUC: 0.9920
+F1-Score: 0.9535
+Precision: 0.9518
+Recall: 0.9551
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      9969
+           1       0.95      0.96      0.95     10590
+
+    accuracy                           0.95     20559
+   macro avg       0.95      0.95      0.95     20559
+weighted avg       0.95      0.95      0.95     20559
+
+--------------------------------------------------
+Features used in iteration 2: match duration , player kills deaths and assists + hero info 
+Accuracy: 0.9510
+AUC: 0.9916
+F1-Score: 0.9525
+Precision: 0.9507
+Recall: 0.9543
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      9969
+           1       0.95      0.95      0.95     10590
+
+    accuracy                           0.95     20559
+   macro avg       0.95      0.95      0.95     20559
+weighted avg       0.95      0.95      0.95     20559
+
+--------------------------------------------------
+Features used in iteration 3: match duration , player kills deaths and assists + hero info + player networth 
+Accuracy: 0.9730
+AUC: 0.9968
+F1-Score: 0.9739
+Precision: 0.9716
+Recall: 0.9761
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97      9969
+           1       0.97      0.98      0.97     10590
+
+    accuracy                           0.97     20559
+   macro avg       0.97      0.97      0.97     20559
+weighted avg       0.97      0.97      0.97     20559
+
+--------------------------------------------------
+Features used in iteration 4: match duration , player kills deaths and assists + hero info + player networth + player position role and lane 
+Accuracy: 0.9711
+AUC: 0.9963
+F1-Score: 0.9720
+Precision: 0.9700
+Recall: 0.9740
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97      9969
+           1       0.97      0.97      0.97     10590
+
+    accuracy                           0.97     20559
+   macro avg       0.97      0.97      0.97     20559
+weighted avg       0.97      0.97      0.97     20559
+
+--------------------------------------------------
+Features used in iteration 5: match duration , player kills deaths and assists + hero info + player networth + player position role and lane + first blood time and total kills by both teams 
+Accuracy: 0.9701
+AUC: 0.9961
+F1-Score: 0.9711
+Precision: 0.9684
+Recall: 0.9737
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97      9969
+           1       0.97      0.97      0.97     10590
+
+    accuracy                           0.97     20559
+   macro avg       0.97      0.97      0.97     20559
+weighted avg       0.97      0.97      0.97     20559
+
+--------------------------------------------------
